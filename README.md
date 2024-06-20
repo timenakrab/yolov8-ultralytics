@@ -14,3 +14,10 @@ conda activate torch-nightly
 ### change to default
 
 conda activate base
+
+### RUN (cpu, cuda, mps)
+
+python images.py --device cpu
+python videos.py --device cpu
+python webcam-save.py --device cpu
+python webcam-notsave.py --device cpu
